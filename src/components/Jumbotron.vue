@@ -10,7 +10,7 @@ Creare un secondo componente Hero, che visualizza un jumbotron.
 
 <script>
 export default {
-  name: 'myTitle'
+  name: 'jumbotron'
 }
 </script>
 
