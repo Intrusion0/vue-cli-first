@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <myTitle />
+    <jumbotron />
   </div>
 </template>
 
 <script>
 // import Title from './components/title.vue'
-import myTitle from './components/myTitle.vue'
+import myTitle from './components/myTitle.vue';
+import jumbotron from './components/Jumbotron.vue';
 
 export default {
   name: 'App',
   components: {
-    myTitle
+    myTitle,
+    jumbotron
   }
 }
 </script>
